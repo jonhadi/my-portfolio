@@ -1,0 +1,70 @@
+/* SLIDE CSS */
+
+#carouselExampleControls {
+    background-color: #3e3e3e;
+}
+
+.carousel-inner .carousel-item active .carousel-caption {
+    font-size: 36px;
+    opacity: .5;
+}
+
+.carousel-item .carousel-caption {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.carousel-item, .carousel.slide {
+    height: 325px;
+    width: 600px;
+}
+
+.carousel {
+    float: right;
+}
+
+.caption {
+    font-family: 'DM Sans', sans-serif; 
+    font-size: 36px;
+}
+
+.right {
+    position: absolute;
+    right: 10%;
+    top: 30%;
+    width: 35%;
+    height: 15%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 50px;
+  width: 50px;
+}
+
+.carousel-control-prev-icon {
+    margin-left: 10px;
+}
+
+.carousel-control-next-icon {
+    margin-right: 10px;
+}
+
+.carousel.slide {
+    position: absolute;
+    top: 200px;
+    right: 150px;
+}
+
+.carousel-caption, .carousel-indicators, .carousel-control-next, .carousel-control-prev {
+    z-index: 0;
+}
+
+@media only screen and (max-width: 1366px) {
+
+    .carousel.slide {
+        top: 20%;
+        right: 20%;
+    }
+
+}
