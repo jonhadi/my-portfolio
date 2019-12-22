@@ -1,0 +1,60 @@
+/* NAV CSS */
+
+#test, #learn, #home, #events, #myevents, #login, #accountInfo {
+    color: white;
+    font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    display: block;
+    padding: .5rem .5rem;
+    text-decoration: none;
+}
+
+#nav-message .nav-message {
+    position: absolute;
+    right: 5px;
+}
+
+.nav-message {
+    position: absolute;
+    top: 105%;
+}
+
+#accountInfo {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 5px;
+    margin-left: 20px;
+    margin-top: 2px;
+}
+
+#navbarNavAltMarkup {
+    float: right;
+}
+
+.navbar-nav {
+    float: right;
+}
+
+.navbar-brand b {
+    font-family: 'DM Sans', sans-serif;
+    color: #FFFFFF;
+}
+
+a {
+    color: white;
+}
+
+nav {
+    background:rgba(255,255,255,0.5);
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+#map-start {
+    position: absolute;
+    top: 200%;
+}
