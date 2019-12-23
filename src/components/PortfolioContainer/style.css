@@ -1,0 +1,50 @@
+/*Learn More Container CSS */
+
+button, input {
+    font-family: 'Tajawal', sans-serif;
+    float: right;
+}
+
+.learn-more {
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    top: 105%;
+    right: 10%;
+    /* border: 5px dashed red; */
+    margin-bottom: 5%;
+}
+  
+.grid-pic {
+    height: 65px;
+    width: 65px;
+}
+
+img .grid-pic{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form {
+    display: block;
+    text-align: center;
+}
+
+#project-show {
+    color: rgb(228, 224, 222);
+    padding: 50px 0 10px 0;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bolder;
+    letter-spacing: 8px;
+    font-family: 'Varela', sans-serif;
+}
+
+#statement {
+    font-size: 20px;
+}
+
+#direct {
+    color: #000;
+    font-weight: bolder;
+}

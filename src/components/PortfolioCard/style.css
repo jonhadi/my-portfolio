@@ -1,0 +1,123 @@
+.material-name {
+    text-align: center;
+}
+
+.dropdown {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    padding: 12px 16px;
+    z-index: 0;
+}
+
+.dropdown-content h3 {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.dropdown-content p {
+    font-size: 20px;
+}
+
+.dropdown .dropdown-content {
+    display: block;
+    color: rgba(0,0,0,.5);
+    width: 1200%;
+    background:rgba(255,255,255,0.5);
+    height: 300px;
+}
+
+.row #project1 {
+    position: absolute;
+    left: -20%;
+    top: 50px;
+}
+
+.row #project2 {
+    position: absolute;
+    left: -120%;
+    top: 50px;
+}
+
+.row #project3 {
+    position: absolute;
+    left: -220%;
+    top: 50px;
+}
+
+.row #project4 {
+    position: absolute;
+    left: -320%;
+    top: 50px;
+}
+
+.row #project5 {
+    position: absolute;
+    left: -420%;
+    top: 50px;
+}
+
+.row #project6 {
+    position: absolute;
+    left: -520%;
+    top: 50px;
+}
+
+.row #project7 {
+    position: absolute;
+    left: -620%;
+    top: 50px;
+}
+
+.row #project8 {
+    position: absolute;
+    left: -720%;
+    top: 50px;
+}
+
+.row #project9 {
+    position: absolute;
+    left: -820%;
+    top: 50px;
+}
+
+.row #project10 {
+    position: absolute;
+    left: -920%;
+    top: 50px;
+}
+
+.row #project11 {
+    position: absolute;
+    left: -1020%;
+    top: 50px;
+}
+
+.dropdown.col .row {
+    position: absolute;
+    left: 10px;
+    width: 100%;
+    transition: 180s;
+}
+
+.dropdown.col {
+    text-align: center;
+}
+
+.col {
+    margin: 0;
+    padding: 1px;
+}
+
+@media only screen and (max-width: 1336px) {
+
+
+}

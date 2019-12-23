@@ -2,6 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar from "./components/NavBar/NavBar";
 import StoryContainer from "./components/StoryContainer/StoryContainer";
+import PortfolioContainer from "./components/PortfolioContainer/PortfolioContainer";
 import './App.css';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <div style={{ width: "100vw", height: "100vh" }}>
       <NavBar/>
       <StoryContainer />
+      <PortfolioContainer />
     </div>
     // <div className="App">
     //   <header className="App-header">

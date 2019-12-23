@@ -18,8 +18,8 @@ class NavBar extends Component {
             <div className="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                 <div className="navbar-nav">
                     <a id="home" className="nav-item nav-link active" href="#top">Home</a>
-                    <a id="learn" className="nav-item nav-link" href="#learn-container">Story</a>
-                    <a id="events" className="nav-item nav-link" href="#map-start">Portfolio</a>
+                    <a id="learn" className="nav-item nav-link" href="#story-container">Story</a>
+                    <a id="events" className="nav-item nav-link" href="#project-show">Portfolio</a>
                     <a id="test" className="nav-item nav-link" href="#game-container">Contact</a>
                 </div>
             </div>
