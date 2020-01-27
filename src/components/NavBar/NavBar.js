@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./styles.css";
+import "./style.css";
 
 class NavBar extends Component {
 
@@ -7,7 +7,7 @@ class NavBar extends Component {
 
     return (
         <nav className="navbar navbar-expand-sm">
-
+            <div className="container">
                 <a className="navbar-brand" href="#top"> <b>Jon Hadi</b> </a>
 
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
@@ -23,7 +23,7 @@ class NavBar extends Component {
                     <a id="test" className="nav-item nav-link" href="#game-container">Contact</a>
                 </div>
             </div>
-        
+            </div>
         </nav>
     )
     }

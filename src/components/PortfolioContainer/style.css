@@ -48,3 +48,8 @@ form {
     color: #000;
     font-weight: bolder;
 }
+
+#portfolio-container {
+    height: 100%;
+    margin-bottom: 500px;
+}

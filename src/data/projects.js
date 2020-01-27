@@ -1,11 +1,13 @@
 const projects = [
     {
         id: "project1",
-        name: "Project 910",
-        url: "https://github.com/CharisHadi/project910",
-        image: "/images/Trash.jpg",
+        name: "PoppingPortland",
+        url: "https://duneoz.github.io/Project1/",
+        image: "/images/gmapsjpg.jpg",
         transform: "-20%",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        technologies: "FireBase, Materialize, Javascript, HTML5, CSS3, Express",
+        description: "Poppin’ Portland is created to help visitors and even Portlanders know what is happening around Portland. We have toggleable icons that show where wineries and breweries are located on a Google Maps API. When clicking on an icon the company’s twitter feed is sent to the side of the map. Originally, we wanted to pull the information from Yelp/Instagram/Twitter to see companies mention and what is really popping in Portland, but API Keys from bigger companies are harder to come by or behind a paywall. So instead, they were added in manually.",
+        responsibilities: "I created the front end from a draw up we have uploaded to the repository. I also worked on the website’s ability to upload new spots onto Google’s FireBase, and the pin drop to the google maps API once uploaded."
     },
     {
         id: "project2",
@@ -13,15 +15,19 @@ const projects = [
         url: "https://project-2-group.herokuapp.com/",
         image: "/images/Plan-It.png",
         transform: "-120%",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        technologies: "MySQL, HandleBars, Javascript, HTML5, CSS3, jQuery, Bootstrap",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        responsibilities: "I created the mySQL database and schema, created the express routes to talk between front end and back end, made the on-click events, and directed the front end development."
     },
     {
-        id: "project3",
-        name: "PoppingPortland",
-        url: "https://duneoz.github.io/Project1/",
-        image: "/images/gmapsjpg.jpg",
+        id: "project2",
+        name: "Project 910",
+        url: "https://github.com/CharisHadi/project910",
+        image: "/images/Trash.jpg",
         transform: "-220%",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        technologies: "Bootstrap, CSS3, HTML5, Javascript, React, GoogleMaps, MySQL, Sequelize, Moment, Express, Node.js",
+        description: "Project 910 came about because I wanted to make something that can be useful to communities and bring people together to do good. On the website you can see events people create utilizing a google maps API. Originally it was events to clean up trash/ do community service. The front end consisted of React and Bootstrap. I used facebook as a login because I wanted to make a facebook event once you make an event on the website. You can also see a list of upcoming events. A database is used to track your attendance/ creator status for the event. The deployment was not successful, but I could run the site on my local machine. I am planning on utilizing redux to help with state management.",
+        responsibilities: "I deployed the used the facebook secure login API, created the relational database, used express for back and front end communication, directed front end development,  created reusable react components"
     },
     {
         id: "project4",
@@ -29,7 +35,7 @@ const projects = [
         url: "https://memory-game-flamo.herokuapp.com/",
         image: "/images/avatarState.jpg",
         transform: "-320%",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        description: "The Last Memory Game tests your memory skills in a game where you can only click on one image during a game. It utilizes React to only change the gameboard and randomize the board after clicking. The game also tracks the overall high score of the play session"
     },
     {
         id: "project5",
@@ -37,7 +43,7 @@ const projects = [
         url: "https://gamer-finder-flamo.herokuapp.com/",
         image: "/images/pirate.webp",
         transform: "-420%",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        description: "Everyone is lonely these days especially gamers. This website has a survey you fill out and it will upload and store your survey profile in a SQL database. Then will compare your profile to previous users and pair you up with a gamer that is similar to you so you can find a likeminded to play with."
     },
     {
         id: "project6",
@@ -45,7 +51,7 @@ const projects = [
         url: "https://github.com/jonhadi/bamazon",
         image: "/images/Bamazon.png",
         transform: "-520%",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        description: "Is a node based application that allows the general use of amazon. It is pretty bare bones in terms of UI and was used to learn and node.js and SQL. Users are able to create accounts. Those users can post items to sell or browse the shop. The amount or shopping cart is totaled up. Once a users buys a posted item, the amount of stock is tracked and updated. Once fully gone the post is removed. This is all stored in an SQL database."
     },
     {
         id: "project7",
@@ -53,7 +59,7 @@ const projects = [
         url: "https://jonhadi.github.io/giftastic/",
         image: "/images/supahlogo.webp",
         transform: "-620%",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        description: "Is a website that has premade buttons to will spawn the top 10 GIFs. The GIF is paused until you click on it to play. You are also able to create new buttons with the search bar. The Surrounding border of the gif is to show it’s title and rating and have clarity from one GIF to another. This was project is primarily used to learn API uses and calls."
     },
     {
         id: "project8",
@@ -61,15 +67,15 @@ const projects = [
         url: "https://github.com/jonhadi/LIRI-node-app",
         image: "/images/console.png",
         transform: "-720%",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        description: "LIRI is an app that uses API calls and taught us to parse through the data and present it in a comprehendible  format. It was also required of us to make a github read me page."
     },
     {
         id: "project9",
         name: "Trivia",
-        url: "https://jonhadi.github.io/trivia/",
+        url: "https://jonhadi.github.io/TriviaGame/",
         image: "/images/quesiontmarkzzz.png",
         transform: "-820%",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        description: "The trivia game was used to teach data management. I set up a choice to start the game with different countdown timers. The questions would be given out at a random order. Each question would have a different answer depending if you were correct or incorrect. Then at the end a final tally."
     },
     {
         id: "project10",
@@ -77,7 +83,7 @@ const projects = [
         url: "https://jonhadi.github.io/unit-4-game/",
         image: "/images/knight.jpg",
         transform: "-920%",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        description: "The Card game taught how to move and change UI based on user input. The user would choose a character and that card would move to the player side. Then the player would choose an enemy to face off. The point is to defeat the rest of the board but you must choose your enemy wisely because you character has a growing (damage) and decreasing (health) stat which involves logic for when the game ends and resets."
     },
     {
         id: "project11",
@@ -85,7 +91,7 @@ const projects = [
         url: "https://jonhadi.github.io/GuessWordGame/",
         image: "/images/hauntedhouse.jpg",
         transform: "-1020%",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        description: "Just a take on hangman. Hangman takes a random word from an array and you must guest that word. It checks for already used/ correct characters so you cannot mess up a guess. I also played with the UI for the beginning screen and theme for fun."
     },
 ]
 

@@ -30,7 +30,7 @@ class PortfolioCard extends Component {
                 onMouseEnter={this.handleMouseHover}
                 onMouseLeave={this.handleMouseHover} >
                 <span>
-                    <img className="grid-pic" src={this.props.imgUrl} alt="" />
+                    <a href={this.props.link} target="_blank" rel="noopener noreferrer"><img className="grid-pic" src={this.props.imgUrl} alt="" /></a>
                 </span>
                 <Row>
                 {this.state.isHovering && <CardHover id={this.props.id} name={this.props.name} description={this.props.description} />}

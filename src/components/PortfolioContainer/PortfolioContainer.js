@@ -20,7 +20,7 @@ class PortfolioContainer extends Component {
         )
 
     return (
-        <div id="story-container" className="learn-more">
+        <div id="portfolio-container" className="container">
             <header id="project-show">Projects</header>
             <p id="statement"> Currently refactoring old projects.</p>
 

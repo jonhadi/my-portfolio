@@ -3,14 +3,16 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar from "./components/NavBar/NavBar";
 import StoryContainer from "./components/StoryContainer/StoryContainer";
 import PortfolioContainer from "./components/PortfolioContainer/PortfolioContainer";
+import Footer from "./components/Footer/Footer"
 import './App.css';
 
 function App() {
   return (
-    <div style={{ width: "100vw", height: "100vh" }}>
+    <div>
       <NavBar/>
       <StoryContainer />
       <PortfolioContainer />
+      <Footer />
     </div>
     // <div className="App">
     //   <header className="App-header">
