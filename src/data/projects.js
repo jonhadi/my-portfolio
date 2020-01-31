@@ -16,7 +16,7 @@ const projects = [
         image: "/images/Plan-It.png",
         transform: "-120%",
         technologies: "MySQL, HandleBars, Javascript, HTML5, CSS3, jQuery, Bootstrap",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        description: "Plan-It is a calendar website that has a to-do list and general important event reminders. For users that need a very detailed plan of their day. Each day would have a to-do list that can be striked through once it is complete. Furthermore entries can be marked “important”, this allows us to have the next 20 “important” events coming in the future to be displayed beneath. The constant view of upcoming important events would help the user not forget. This project was created before learning about React. I would like to remake it in React.",
         responsibilities: "I created the mySQL database and schema, created the express routes to talk between front end and back end, made the on-click events, and directed the front end development."
     },
     {

@@ -20,6 +20,7 @@ class StoryContainer extends Component {
     return (
         <div id="story-container">
             <Container>
+                <h1>My Story</h1>
                 <Row>
                     {storyComponents}
                 </Row>

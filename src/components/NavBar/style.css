@@ -52,9 +52,14 @@ nav {
     top: 0;
     width: 100%;
     z-index: 1;
+    padding: 1rem;
 }
 
-#map-start {
-    position: absolute;
-    top: 200%;
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav.hidden {
+    transform: translate3d(0,-100%,0);
 }

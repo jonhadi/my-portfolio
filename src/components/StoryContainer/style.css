@@ -1,3 +1,12 @@
 #story-container {
     padding-top: 65px;
 }
+
+h1 {
+    color: rgb(228, 224, 222);
+    text-align: center;
+    font-size: 5em;
+    font-weight: bolder;
+    letter-spacing: 8px;
+    font-family: 'Varela', sans-serif;
+}

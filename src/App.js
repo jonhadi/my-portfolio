@@ -1,5 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Landing from "./components/Landing/Landing"
 import NavBar from "./components/NavBar/NavBar";
 import StoryContainer from "./components/StoryContainer/StoryContainer";
 import PortfolioContainer from "./components/PortfolioContainer/PortfolioContainer";
@@ -9,6 +10,7 @@ import './App.css';
 function App() {
   return (
     <div>
+      <Landing />
       <NavBar/>
       <StoryContainer />
       <PortfolioContainer />

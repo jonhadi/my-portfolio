@@ -38,7 +38,7 @@ const chapters = [
     {
         id: "ch7",
         image: "./images/toys.jpg",
-        text: "I’ve built a relational database for tracking user created events which started as an event maker to help locals organize cleaning up trash. The front end utilize react where I also created reusable components.  I am experienced with technologies like Javascript, CSS3, HTML5, Node.js, MySQL, React.js, Express.js, jQuery, and more. I have a certification of Full Stack Web Development from the University of Oregon. In addition, I have completed two years of University Computer Science courses and have a background working in IT and service."
+        text: "I’ve built a relational database for tracking user created events which started as an event maker to help locals organize cleaning up trash. The front end utilize react where I also created reusable components.  I am experienced with technologies like Javascript, CSS3, HTML5, Node.js, MySQL, React.js, Express.js, jQuery, and more. I have a certification of completion from from the University of Oregon Full Stack Web Development course. In addition, I have completed two years of University Computer Science courses and have a background working in IT and service."
 
     },
     {

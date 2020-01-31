@@ -2,11 +2,18 @@ import React, { Component } from "react";
 import "./style.css";
 
 class NavBar extends Component {
+    
+    handleScroll = e => {
+        let element = e.target
+        if (element.scrollHeight - element.scrollTop === element.clientHeight) {
+          this.addClass('hidden');
+        }
+    }
 
-    render() {
+    render() {        
 
     return (
-        <nav className="navbar navbar-expand-sm">
+        <nav className="navbar navbar-expand-sm" onScroll={this.handleScroll}>
             <div className="container">
                 <a className="navbar-brand" href="#top"> <b>Jon Hadi</b> </a>
 

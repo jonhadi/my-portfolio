@@ -6,8 +6,9 @@ class NavBar extends Component {
     render() {
 
     return (
-        <div className="container" id="footer">
-            <p>Footer</p>
+        <div id="footer">
+            <div className="container">
+            </div>
         </div>
     )
     }
