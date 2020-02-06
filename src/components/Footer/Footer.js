@@ -8,6 +8,7 @@ class NavBar extends Component {
     return (
         <div id="footer">
             <div className="container">
+                <a href="hadijonathan@gmail.com"> jonhadi</a>
             </div>
         </div>
     )

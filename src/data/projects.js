@@ -20,7 +20,7 @@ const projects = [
         responsibilities: "I created the mySQL database and schema, created the express routes to talk between front end and back end, made the on-click events, and directed the front end development."
     },
     {
-        id: "project2",
+        id: "project3",
         name: "Project 910",
         url: "https://github.com/CharisHadi/project910",
         image: "/images/Trash.jpg",
