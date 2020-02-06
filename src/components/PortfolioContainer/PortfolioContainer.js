@@ -8,7 +8,7 @@ import "./style.css";
 class PortfolioContainer extends Component {
 
     render() {
-        const storyComponents = projects.map(project => 
+        const portfolioComponents = projects.map(project => 
             <PortfolioCard
                 id={project.id}
                 key={project.id} 
@@ -26,7 +26,7 @@ class PortfolioContainer extends Component {
 
             <Container>
                 <Row>
-                    {storyComponents}
+                    {portfolioComponents}
                 </Row>
             </Container>
         </div>

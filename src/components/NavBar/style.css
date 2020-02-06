@@ -26,13 +26,6 @@
     float: right;
 }
 
-.navbar-brand b {
-    color: white;
-    font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
-    display: block;
-    padding: .5rem .5rem;
-    text-decoration: none;
-}
 
 a {
     color: white;

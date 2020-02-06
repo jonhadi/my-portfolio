@@ -2,20 +2,13 @@ import React, { Component } from "react";
 import "./style.css";
 
 class NavBar extends Component {
-    
-    handleScroll = e => {
-        let element = e.target
-        if (element.scrollHeight - element.scrollTop === element.clientHeight) {
-          this.addClass('hidden');
-        }
-    }
 
     render() {        
 
     return (
-        <nav className="navbar navbar-expand-sm" onScroll={this.handleScroll}>
+        <nav className="navbar navbar-expand-sm">
             <div className="container">
-                <a className="navbar-brand" href="#top"> <b>Jon Hadi</b> </a>
+                <a className="navbar-brand" href="#top"> Jon Hadi </a>
 
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                     aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">

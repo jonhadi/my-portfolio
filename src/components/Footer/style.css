@@ -6,10 +6,34 @@
     width: 100%;
     background:rgba(255,255,255,0.5);
     color: white;
-    text-align: center;
-    padding-top: 10rem;
+    font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    text-align: left;
+    padding-bottom: 10rem;
 }
 
 a {
+    overflow: hidden;
+    clear:both;
+    line-height:1rem;
+}
+
+ img {
     float: left;
+} 
+
+#mail-button {
+    max-width: 5rem;
+    height: auto;
+}
+
+#instagram-button, #linkedin-button {
+    max-width: 4rem;
+    height: auto;
+    padding: .1rem;
+}
+
+#github-button {
+    max-width: 4rem;
+    height: auto;
+    padding-top: .3rem;
 }
