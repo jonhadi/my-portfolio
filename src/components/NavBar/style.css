@@ -26,6 +26,9 @@
     float: right;
 }
 
+#logo {
+    max-width: 4rem;
+}
 
 a {
     color: white;

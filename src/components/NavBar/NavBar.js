@@ -8,7 +8,7 @@ class NavBar extends Component {
     return (
         <nav className="navbar navbar-expand-sm">
             <div className="container">
-                <a className="navbar-brand" href="#top"> Jon Hadi </a>
+                <a className="navbar-brand" href="#top"><img id="logo" alt="" src="/images/logo.png"></img></a>
 
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                     aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,7 +20,7 @@ class NavBar extends Component {
                     <a id="home" className="nav-item nav-link active" href="#top">Home</a>
                     <a id="learn" className="nav-item nav-link" href="#story-container">Story</a>
                     <a id="events" className="nav-item nav-link" href="#project-show">Portfolio</a>
-                    <a id="test" className="nav-item nav-link" href="#game-container">Contact</a>
+                    <a id="test" className="nav-item nav-link" href="#footer">Contact</a>
                 </div>
             </div>
             </div>
