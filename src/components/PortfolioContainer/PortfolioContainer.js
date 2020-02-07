@@ -22,7 +22,7 @@ class PortfolioContainer extends Component {
     return (
         <div id="portfolio-container" className="container">
             <header id="project-show">Projects</header>
-            <p id="statement"> Currently refactoring old projects.</p>
+            <p id="statement"> Currently working on this portfolio and refactoring old projects.</p>
 
             <Container>
                 <Row>
