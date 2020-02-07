@@ -17,7 +17,7 @@ class NavBar extends Component {
                 </div>
                 <div className="row">
                     <div className="col-6">
-                        <a href="https://www.linkedin.com/in/jonhadi"> <img id="linkedin-button" src="/images/linkedin.png" alt="">LinkedIn</img></a>
+                        <a href="https://www.linkedin.com/in/jonhadi"> <img id="linkedin-button" src="/images/linkedin.png" alt=""></img>LinkedIn</a>
                     </div>
                     <div className="col-6">
                         <a href="https://www.instagram.com/jonflamo/"> <img id="instagram-button" src="/images/instagram.png" alt=""></img>Instagram</a>
